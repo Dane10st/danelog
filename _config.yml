@@ -1,0 +1,42 @@
+# Site settings
+title: Dane의 Contents Log
+tagline: 뼛속까지 문과생 콘텐츠 생존기
+description: "결국은 콘텐츠도 혼자서 다 만들줄 알아야겠죠?"
+url: "https://dane-log10.kr"
+author:
+  name: "Dane Min"
+  email: "dane_min@naver.com"
+  url: "https://dane-log10.kr"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+permalink: /:title
+paginate: 8
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+# 블로그 disqus shortname
+disqus:
+  shortname: danelog

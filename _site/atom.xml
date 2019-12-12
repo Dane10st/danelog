@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Dane의 Contents Log</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2019-12-12T17:07:49+09:00</updated>
+ <author>
+   <name>Dane Min</name>
+   <uri>https://dane-log10.kr</uri>
+   <email>dane_min@naver.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>D-log를 시작합니다</title>
+   <link href="http://localhost:4000/opening-dlog/"/>
+   <id>http://localhost:4000/openingdlog</id>
+   <updated>2019-12-12T15:00:00+09:00</updated>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;../img/post/01/post1.png&quot; alt=&quot;고대 그리스로&quot; /&gt;&lt;/p&gt; &lt;p&gt;​ 고교 시절 미적분도 배우지 않았는데, 이제는 초등학생들도 코딩을 배운다고 합니다. 변화의 폭도 상당한데, 속도는 더 어마무시하죠. 저같은 순수 문돌이들에게 ‘앞으로는 융합형 인재가 되지 않는 이상 살아남을 수 없다’는, 일종의 경고이기도 합니다.&lt;/p&gt; &lt;p&gt;​ 저 역시 아주 보통의 문과생 테크를 밟고 자라, 제가 할 일을 찾기...</content>
+ </entry>
+
+ 
+
+</feed>
