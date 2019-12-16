@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
+title: 영상을 배우기 전에 꼭 알아야 할 것
 date: 2019-12-16 12:00:00 +09:00
-author: "Ogaeng"
+author: "Dane"
 permalink: /dlog-editingvideo1/
 image:
   feature: post2.png
