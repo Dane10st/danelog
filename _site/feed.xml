@@ -1,66 +1,263 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-16T16:32:58+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dane의 Contents Log</title><subtitle>결국은 콘텐츠도 혼자서 다 만들줄 알아야겠죠?</subtitle><author><name>Dane Min</name><email>dane_min@naver.com</email></author><entry><title type="html">영상을 배우기 전에 꼭 알아야 할 것</title><link href="http://localhost:4000/dlog-editingvideo1/" rel="alternate" type="text/html" title="영상을 배우기 전에 꼭 알아야 할 것" /><published>2019-12-16T12:00:00+09:00</published><updated>2019-12-16T12:00:00+09:00</updated><id>http://localhost:4000/editingvideo1</id><content type="html" xml:base="http://localhost:4000/dlog-editingvideo1/">&lt;p&gt;&lt;img src=&quot;../img/post/02/post21.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dane의 Contents Log</title>
+    <description>결국은 콘텐츠도 혼자서 다 만들줄 알아야겠죠?</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 Dec 2019 13:46:17 +0900</pubDate>
+    <lastBuildDate>Thu, 19 Dec 2019 13:46:17 +0900</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>아주 짤막한 영상 지식 - 2</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/03/post03.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;참고로 이건 Video Format 두 번째 시간입니다. 첫 번째 포스트를 아직 열람하지 못하신 분들은 황급히 뒤로가기를 눌러 순서에 따라 내용을 확인하시기 바랍니다. 이미 영상이론에 대해 빠삭하다 자부하는 분들은 마우스를 내려놓고 이 페이지에서 나가 주시기 바랍니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;frame-rate초당-몇장을-찍었는가&quot;&gt;Frame Rate(초당 몇장을 찍었는가)&lt;/h3&gt;
+
+&lt;p&gt;오며 가며 29.97fps, 30fps 등 Frame Rate에 대한 다양한 값들을 구경은 했을 겁니다. 제목에 설명한대로 30fps는 초당 30장을 찍었다는 이야기입니다. 바꿔 말하면 30장의 프레임이 모여 1초의 영상을 구성했다는 이야기죠.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-1.png&quot; alt=&quot;프레임 레이트 종류&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Frame Rate에 대한 값은 이렇게 다양합니다. (i에 관한 부분은 이전 포스트의 Interlaced Scan 부분을 참고) 촬영 단계부터 용도에 맞게 적절한 프레임 레이트를 설정해야, 깔끔한 작업에 도움이 되겠쥬?&lt;/p&gt;
+
+&lt;p&gt;참고로 전통 영화가 24p를 쓰는 이유는 &lt;strong&gt;1) 필름 값 2) 거친 느낌&lt;/strong&gt; 때문이라고 합니다&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;29.97 (30p)&lt;/li&gt;
+    &lt;li&gt;59.94 (60p)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(아마도 초기 세팅 때 가장 많이 만날 두 친구.. ㅎㅎ)&lt;/p&gt;
+
+&lt;p&gt;이 두 친구를 &lt;strong&gt;방송용&lt;/strong&gt; Frame Rate라 합니다. 우리에게 아~주 익숙한 720p 화질부터 60프레임 송출이 가능해졌는데요! 59.94 방식을 쓰는 거라고 보면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;+@ 120p or 240은 슬로우모션 용입니다. 초당 프레임 수가 많아야 길~~게 늘일 수 있다는 개념..!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drop Frame&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-2.png&quot; alt=&quot;Drop Frame&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Drop Frame이란 원래 &lt;strong&gt;‘끊겨 보인다’&lt;/strong&gt; 는 의미입니다. 그런데 왜 드랍 프레임을 쓰는 걸까요? 이유는 Timecode 방식 때문인데.. 바로 설명해 드릴게요?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Timecode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;00:00:00:00 (시:분:초:프레임)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;영화는 24 프레임이라고 했쥬? 그럼 1~23프레임이 지나고 다음 24번 째 프레임이 되는 순간! 1초가 되는 겁니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-3.png&quot; alt=&quot;NDF vs DF&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NDF(Non Drop Frame)로 1시간을 촬영하면 타임 코드로는 1시간이 찍히지만 실제로 촬영한 시간은 01:00:03:18이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;여러분이 방송국과 협업할 일이 생겨서 NDF로 촬영한 방송분을 넘겼는데 실제 방송 러닝 타임 기준 1시간으로 자르면? 뒤에 3초 18은 스무스하게 삭제됩니다. 우리가 Frame Rate에 대해 정말 간단한 배경지식은 알아놔야 하는 이유를 아시겠죠?&lt;/p&gt;
+
+&lt;p&gt;영상 촬영 및 제작시 29.97fps 을 쓰려거들랑 무!조!건! Drop Frame Timecode를 쓰도록 합시다. 같은 이유로 영화나 드라마에서도 24가 아닌 23.98fps를 쓴다고 하니 알아두시면 좋을 듯&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;요약 결론 : 29.97과 23.98을 가장 많이 쓰고 DFT 설정해야 시간이 딱 맞는다&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bit Depth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-4.png&quot; alt=&quot;Bit Depth&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 Dec 2019 12:00:00 +0900</pubDate>
+        <link>http://localhost:4000//dlog-videoformat2/</link>
+        <guid isPermaLink="true">http://localhost:4000//dlog-videoformat2/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        
+        <category>영상</category>
+        
+        <category>영상제작</category>
+        
+        <category>영상이론</category>
+        
+      </item>
+    
+      <item>
+        <title>아주 짤막한 영상 지식 - 1</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/02/post02.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;지금부터 나오는 이론은 ‘이것도 모른다면 대체 영상을 왜 하려고 하니?’를 스스로에게 되물어야 할 만큼 아주 기초적인 것이니, 가벼운 마음으로 쓱쓱 읽되 내가 몰랐던 건 필히 킵하고 가시길 바랍니다&lt;/p&gt;
 
 &lt;h2 id=&quot;video-format&quot;&gt;Video Format&lt;/h2&gt;
 
-&lt;p&gt;이 설정을 통해야만! 영상 편집이 ‘시작’된다고 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;이 설정을 통해야만! 영상 편집이 ‘시작’된다고 볼 수 있습니다. 이걸 모르면 맨~ 처음 설정부터 머리가 아프기 시작하면서 영상을 때려치는 불상사가 발생합니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;화면-사이즈resolution&quot;&gt;화면 사이즈(Resolution)&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;SD&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;NTSC (480 Lines 60i, 30p)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;NTSC (480 Lines 60i, 30p)&lt;/li&gt;
+    &lt;li&gt;PAL (576 Lines 50i, 25p)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;미국과 우리나라는 이 방식을 채택. 이제는 HD 이상급 시대라 볼 일이 없쥬?&lt;/p&gt;
+&lt;p&gt;미국과 우리나라는 NTSC 방식을 채택. 유럽에서는 PAL 방식을 채택하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;HD&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;720p(1280x720)&lt;/li&gt;
-  &lt;li&gt;1080p(1920x1080)&lt;/li&gt;
-  &lt;li&gt;1080i(1920x1080)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;720p (1280x720)&lt;/li&gt;
+    &lt;li&gt;1080p (1920x1080)&lt;/li&gt;
+    &lt;li&gt;1080i (1920x1080)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;요즘 TV로 옛~~날 무한도전을 보면 좌우에 필러박스(송출 영역 제외한 좌우 여백)를 확인할 수 있습니다. 그러다 HD 이상 출력되는 TV와 방송 송출이 가능해지면서 오늘날의 예능을 시청할 수 있게 됐죠.&lt;/p&gt;
 
 &lt;p&gt;720p의 특징은 HD 60프레임 방송이 가능했다는 점입니다. 화질은 다소 떨어지지만 송출력은 높은 특징을 가지고 있습니다.&lt;/p&gt;
 
-&lt;p&gt;Q. 그럼 왜 화면 사이즈가 점점 커질까요..?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Q. 그럼 왜 화면 사이즈가 점점 커질까요..?&lt;/p&gt;
 
-&lt;p&gt;A. 제조사에서 디스플레이가 큰 제품을 찍어내니까..&lt;/p&gt;
+  &lt;p&gt;A. 제조사에서 디스플레이가 큰 제품을 찍어내니까..&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;참고로 FHD(풀 HD라 하는)는 용어(?)는 디스플레이 제조 회사가 만든 개념이고 정식 용어는 아니라고 합니다. 혹시 본인이 타인의 멘트에 지적질하기 좋아하는 꼰대라 자부하신다면 누군가 FHD 언급할 때 대놓고 면박주면 우왕굳.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;UHD&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;4K (3840x2160)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;4K (3840x2160)&lt;/li&gt;
+    &lt;li&gt;5K (5120x2700)&lt;/li&gt;
+    &lt;li&gt;8K (7680x4320)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;가로의 사이즈가 4천에 근접했다는 이유로 4k라 부릅니다. UHD의 최소 기준이라고 할 수 있죠.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;5K (5120x2700)&lt;/li&gt;
-  &lt;li&gt;8K (7680x4320)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;(4K는 3840인 가로 사이즈가 4천에 근접했다고 하여 4K라 부른다 합니다.)&lt;/p&gt;
 
 &lt;p&gt;기기는 고도화 됐는데 아직 모든 방송이 저 기기에 적합한 송출력을 가지고 있느냐..는 의문이 듭니다. 당장 매장에서 튼 초고화질 영상은 기기를 팔기 위해 제작한 영상이니 말이죠. 아마 큰맘 먹고 질렀는데 집에 와서 내가 보던 드라마 보면 상당히 흐릿한 것이 심심하고 픽셀도 다소 깨져보이는 듯한 느낌적인 느낌이 들 겁니다.&lt;/p&gt;
 
 &lt;p&gt;뭐.. 방 안에서 좁디 좁은 모니터로 볼지언정 블루레이를 모으던 이치랑 같지 않겠습니까? 영상 화질은 심심해도 화면은 광화문만한 사이즈로 보겠다 하시는 분들 이해해 줍시다.&lt;/p&gt;
 
-&lt;p&gt;참고로 영화관에서 보는 아이맥스는 16K 정도 된다고 합니다.&lt;/p&gt;</content><author><name>Dane</name></author><category term="파이널컷" /><category term="유튜브" /><category term="영상이론" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22post2.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22post2.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">D-log를 시작합니다</title><link href="http://localhost:4000/opening-dlog/" rel="alternate" type="text/html" title="D-log를 시작합니다" /><published>2019-12-12T15:00:00+09:00</published><updated>2019-12-12T15:00:00+09:00</updated><id>http://localhost:4000/openingdlog</id><content type="html" xml:base="http://localhost:4000/opening-dlog/">&lt;p&gt;&lt;img src=&quot;../img/post/01/post1.png&quot; alt=&quot;고대 그리스로&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;참고로 영화관에서 보는 아이맥스는 16K 정도 된다고 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;scan-method&quot;&gt;Scan Method&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Interlaced Scan (ex. 1080i)&lt;/p&gt;
+
+    &lt;p&gt;이름에서 알 수 있듯이 짝수랑 홀수장을 빠르게 교차하며 보여주는 것을 의미합니다. 기술이 살짝 떨어지던 시절에 사용하던 방식인데.. 비교적 용량이 작은 것이 장점이었지만, 화질이 다소 떨어지는 단점이 있죠.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Field&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이 방식에서 아주 중요한 용어입니다. 예를 들어 50i라 함은 &lt;strong&gt;‘초당 50 필드를 찍었다’&lt;/strong&gt;는 것을 말합니다. 필드는 홀짝의 개념으로 프레임의 1/2 수치인데.. 50i 라는 것은 체감상 25프레임이라는 것을 의미하죠.&lt;/p&gt;
+
+&lt;p&gt;홀에 해당하는 odd와 짝에 해당하는 even으로 구성되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Progressive Scan (ex. 1080p)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interlaced Scan 방식과 다르게 필름 촬영 방식에 근거합니다. 화질이 좋고 용량이 큰 단점(?)이 있는데, 요즘은 저장 장치 용량도 매우 크고 상대적으로 가격도 저렴해졌기 때문에 사실상 단점이 없다고 보면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;얘기가 길어질 것 같으니 Frame Rate 부터는 다음 포스팅에..&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Dec 2019 12:00:00 +0900</pubDate>
+        <link>http://localhost:4000//dlog-videoformat1/</link>
+        <guid isPermaLink="true">http://localhost:4000//dlog-videoformat1/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        
+        <category>영상</category>
+        
+        <category>영상제작</category>
+        
+        <category>영상이론</category>
+        
+      </item>
+    
+      <item>
+        <title>D-log를 시작합니다</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/01/post1.png&quot; alt=&quot;고대 그리스로&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;​     고교 시절 미적분도 배우지 않았는데, 이제는 초등학생들도 코딩을 배운다고 합니다. 변화의 폭도 상당한데, 속도는 더 어마무시하죠. 저같은 순수 문돌이들에게 ‘앞으로는 융합형 인재가 되지 않는 이상 살아남을 수 없다’는, 일종의 경고이기도 합니다.&lt;/p&gt;
 
 &lt;p&gt;​     저 역시 아주 보통의 문과생 테크를 밟고 자라, 제가 할 일을 찾기 위해서는 고대 그리스로 가야하는 안타까운 사람 중 한 명입니다. 뒤늦게 이것저것 신문물을 영접하는 중이고, 내가 얼마나 아날로그한 사람이었는지 실감하는 중입니다. 평생 학습 시대라는데 다른 사람 얘기가 아니고 바로 제 얘기였죠.&lt;/p&gt;
 
-&lt;p&gt;​     이 블로그는 영상, 음성, 이미지, 글 등 콘텐츠의 모든 영역에서 이것저것 건드려보고, 깨지고, 다듬는 문돌이의 처절한(?) 후기로 채워질 예정입니다. 저에게는 ‘그래도 이것저것 시도해봤다’는 발자취가, 이곳에 들어온 다른 분들에겐 약으로 쓸 개똥 정도로 쓰이길 바랍니다.&lt;/p&gt;</content><author><name>Dane</name></author><category term="유튜브" /><category term="팟캐스트" /><category term="파이널컷" /><category term="디지털 마케팅" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22post1.png%22%7D" /><media:content medium="image" url="http://localhost:4000/%7B%22feature%22=%3E%22post1.png%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;​     이 블로그는 영상, 음성, 이미지, 글 등 콘텐츠의 모든 영역에서 이것저것 건드려보고, 깨지고, 다듬는 문돌이의 처절한(?) 후기로 채워질 예정입니다. 저에게는 ‘그래도 이것저것 시도해봤다’는 발자취가, 이곳에 들어온 다른 분들에겐 약으로 쓸 개똥 정도로 쓰이길 바랍니다.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Dec 2019 15:00:00 +0900</pubDate>
+        <link>http://localhost:4000//opening-dlog/</link>
+        <guid isPermaLink="true">http://localhost:4000//opening-dlog/</guid>
+        
+        <category>유튜브</category>
+        
+        <category>팟캐스트</category>
+        
+        <category>파이널컷</category>
+        
+        <category>디지털 마케팅</category>
+        
+        
+        <category>Contents</category>
+        
+        <category>Video</category>
+        
+        <category>Podcast</category>
+        
+      </item>
+    
+  </channel>
+</rss>
