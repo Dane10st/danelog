@@ -5,9 +5,390 @@
     <description>결국은 콘텐츠도 혼자서 다 만들줄 알아야겠죠?</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Dec 2019 15:42:00 +0900</pubDate>
-    <lastBuildDate>Thu, 19 Dec 2019 15:42:00 +0900</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2020 21:12:52 +0900</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2020 21:12:52 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>파이널컷 프로 X 기본 인터페이스 2</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/05/post05.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 장점 : 쉽다. 직관적이다&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 단점 : 왜 쉽다는데 난 잘 못 쓰니..?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;New Keyword Collection (핵중요)&lt;/p&gt;
+
+    &lt;p&gt;라이브러리 안의 라이브러리는 안 된다고 지난 시간에 엄중 경고(?)한 바 있습니다. 그럼 이벤트 안에 이벤트 생성은 됩니까? 라고 물으신다면..&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/Keywordcollection.png&quot; alt=&quot;interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;당연히 안 되니까 이런 말도 안 되는 질문을 했겠죠? 그럴 땐 요로코롬 ‘키워드’ 분류를 해주면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/inout.png&quot; alt=&quot;inout&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그런데 이 키워드는 분류는 소스의 ‘부분’도 가능합니다. 쓰고자 하는 부분의 시작에서 ‘i’를 마지막 지점에서 ‘o’를 눌러주시면(In&amp;amp;Out의 약자가 곧 단축키) 첨부한 이미지처럼 소스 내에서 사용할 부분만 체킹이 됩니다. 그리고 이 부분만 Keyword Collection도 가능하다는 말이죠.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project&quot;&gt;Project&lt;/h3&gt;
+
+&lt;p&gt;소스 분류하는 방법을 알았으니 추가적으로 영상 관련 세팅을 해주신다면 영상 편집 시작이 가능하겠죠?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/project.png&quot; alt=&quot;project&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;해당 경로로 시작하면 됩니다. 역시 텍스트보다는 이미지로 설명하는 것이 우왕굳..&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/projectsetting.png&quot; alt=&quot;projectsetting&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;자..! 여러분..! 이 프로젝트 설정값 때문에 그 길고 지루한 영상 이론들을 배운 겁니다!&lt;/p&gt;
+
+&lt;p&gt;만약 프레임 레이트 29.97p 써놓고 위에 Drop Frame 설정 안 했으면 마지막 멘트가 과감히 삭제되는 대참사가 벌어질 뻔했쥬?&lt;/p&gt;
+
+&lt;p&gt;여기서 Rendering은 그 때 그 때의 최종본을 이르는 말입니다. 파컷은 작업 틈틈이 해당 과정을 렌더링 하는 특성을 가지고 있쥬. 코덱은 표준인 프로레스 422를 선택해줍니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 제목은 제발 직관적이고 상세하게 적읍시다. 최종 진짜최종 최최종 더이상 ㄴㄴ&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;storyline&quot;&gt;Storyline&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/storyline.png&quot; alt=&quot;storyline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트를 생성하면 타임라인 센터에 진한 줄이 생성됩니다. 여길 기점으로 스토리라인을 짜고 편집이 시작되는 것이죠. 프로젝트 생성 안 하면 활성화되지 않는 영역이니 ‘어우씨 이거 왜 안 생겨!’ 하시면 아니되옵니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/append.png&quot; alt=&quot;append&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그렇게 대략적인 분류와 세팅이 끝나면 이제 ‘Append’라 불리는 바로 뒤에 이어 붙이기를 통해 영상 편집을 시작한다고 보면 됩니다 ^^&lt;/p&gt;
+
+&lt;p&gt;다음 포스팅에서 ‘분류’에 관한 정산과 함께 본격적인 기본 편집에 대해 다룰테니 많이 기대해 주세요..?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2020 21:00:00 +0900</pubDate>
+        <link>http://localhost:4000//dlog-fcpxinterface2/</link>
+        <guid isPermaLink="true">http://localhost:4000//dlog-fcpxinterface2/</guid>
+        
+        <category>파이널컷프로</category>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        
+        <category>영상</category>
+        
+        <category>영상제작</category>
+        
+        <category>영상이론</category>
+        
+        <category>파이널컷프로</category>
+        
+      </item>
+    
+      <item>
+        <title>파이널컷 프로 X 기본 인터페이스</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/05/post05.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 장점 : Mac과 연동이 잘 된다. 영상 프로그램 중 최적화는 갑&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 단점 : 일단 Mac을 사는데 지갑 탈탈탈&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;인터페이스-구성&quot;&gt;인터페이스 구성&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/interface.png&quot; alt=&quot;interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;각 영역을 부르는 이름입니다. 이걸 반드시 알아둬야 하는 것이.. 나중에 분명 협업 비스무리한 것을 할 텐데, 그 때 가서 “그 맨 왼쪽 상단에 거기 제목 적는 세 번째 칸 있잖아요?” 하면 을매나 읎어 보이겠어요.. ㅜㅜ&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;1-sidebar&quot;&gt;1. Sidebar&lt;/h4&gt;
+
+&lt;p&gt;좌측 최상단에서 제목, 키워드 등을 분류해 놓은 영역을 사이드바라고 합니다. 여기서 같이 알아둬야 할 ‘파이널 컷 프로’의 분류 체계가 있는데..&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/library.png&quot; alt=&quot;library&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 Library란 ‘파이널 컷 프로’의 ‘저장 단위’를 말합니다. 특이한 점은 프로그램 안에서 삭제는 되지 않고 Open/Close 만 가능합니다. 윈도우 프로그램에 익숙해져 있다면 다소 생소한 체계일테니 적응 안 되시는 분들은 맥에 대해 먼저 학습을 간단하게 하시고 사용하시는 걸 추천..!&lt;/p&gt;
+
+&lt;p&gt;그리고 필히 영상 제작 시작할 때 라이브러리의 이름을 정해야 합니다. 혹여나 어디에 영상이나 Xml 제출시에 ‘Untitled 1’라는 작태가 적발된다면.. 그 자리에서 입구컷을 당하게 될 겁니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 여기서 정말 중요한 포인트!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/notgood.png&quot; alt=&quot;notgood&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(하나의 이벤트 안에 여러 이벤트 만들기 금지)&lt;/p&gt;
+
+&lt;p&gt;이게 무슨 말인고 하니.. 여러분이 만약 무한도전을 편집한다고 치면? 하위 폴더인 이벤트에는 세부 갈래로 소스를 분류해야지, 여기에 또 다시 라이브러리급 개념을 넣으면 ‘분류’의 ㅂ도 모르는 사람이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;그런데 라이브러리를 삭제하지 못한다면 영원히 저장 공간 안에서 살아 숨쉬는 괴물이 되는 걸까요..?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;  &lt;img src=&quot;../img/post/05/reveal.png&quot; alt=&quot;reveal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;는 무슨.. 해당 라이브러리가 있는 폴더를 열어 삭제해 주시면 됩니다. 윈도우의 ‘폴더 열기’ 같은 개념이라고 보면 되겠네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-browser&quot;&gt;2. Browser&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/browser.png&quot; alt=&quot;browser&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;쉽게 얘기하자면 우리가 분류해 놓은 소스들을 확인할 수 있는 영역입니다. Import의 사이드 바에서 드래그 해서 등록 가능하고, 가급적 폴더 단위로 불러오는 것을 추천 드립니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Film Strip / list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/filmstrip.png&quot; alt=&quot;filmstrip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이널 컷은 해당 버튼에 마우스 오버를 하게 되면 ‘이것은 ~~에 쓰이는 기능입니다’를 아주 친절히 알려줍니다. 첨부된 이미지에 있는 문구는 대략 ‘필름 스트립 방식과 리스트 방식으로 볼 수 있어요~’라는 뜻인디&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/striplist.png&quot; alt=&quot;striplist&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;어떤 차이인지는 가장 직관적인 ‘이미지’로 설명을 줄이겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clip Appearance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/clipappearance.png&quot; alt=&quot;clipappearance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;필름 스트립/리스트 바로 우측에 있는 버튼입네다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;브라우저에 띄운 자료들의 크기 조절&lt;/li&gt;
+    &lt;li&gt;시간 단위 조절&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;분류한 소스들을 더 자세히 볼 수 있게 커스텀 하는 영역이라고 볼 수 있죠. 여기서 소스들에 마우스 오버를 하고 이리저리 움직이면 해당 영역이 빠르게 play되는 것을 볼 수 있는데.. 이를 ‘스키밍’이라고 부릅니다. 대략적인 편집점이나 영상의 내용을 미리 확인할 수 있는 초특급 꿀 기능!&lt;/p&gt;
+
+&lt;p&gt;만약 여기서 오디오 스키밍 소리가 너무 조잡스럽고 거슬린다..! 하시면&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/audioskimming.png&quot; alt=&quot;audioskimming&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;’Turn Audio Skimming ~~’ 부분을 off 해주면 간단히 해결 (위치는 인스펙터 하단 부분)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/waveforms.png&quot; alt=&quot;waveforms&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그리고 브라우저에서 하단의 웨이브폼을 통해 ‘대략 어떤 볼륨이나 소리를 갖고 있는지’ 확인할 수 있습니다. 자료로 쓴 영상은 픽사베이에서 받은 건데, 오디오가 아예 없는 영상이었어요. 해서 웨이브 폼 영역이 공허함으로 남아 있습니다.&lt;/p&gt;
+
+&lt;p&gt;여튼 여기서 웨이브 폼을 언급한 이유는.. 영상 원본의 볼륨 설정을 적절하게 마친 후 편집에 들어가는 것이 중요하기 때문입니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cotrol + [+/-]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이게 볼륨 조절 단축키니 마우스로 대~충 드래그해서 조절하지 말고 세세하게 조절하시길 바랍니다. 참고로 키보드 사용시 숫자 패드에 있는 +/-는 사용하지 마시는 것을 추천. 입력이 이따금씩 안 되는 문제가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;여기까지가 Library 생성 - Import - 자료 스키밍 - Event 분류의 과정이었고, 키워드 분류 부터는 다음 포스트에..&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2020 20:00:00 +0900</pubDate>
+        <link>http://localhost:4000//dlog-fcpxinterface/</link>
+        <guid isPermaLink="true">http://localhost:4000//dlog-fcpxinterface/</guid>
+        
+        <category>파이널컷프로</category>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        
+        <category>영상</category>
+        
+        <category>영상제작</category>
+        
+        <category>영상이론</category>
+        
+        <category>파이널컷프로</category>
+        
+      </item>
+    
+      <item>
+        <title>아주 짤막한 영상 지식 - 3</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/04/post04.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;언제나 이론은 재미가 읎죠? 사실 저도 그런데.. 이것만 끝내고 얼른 파컷 초간단 매뉴얼로 넘어가도록 할게요 ^^&lt;/p&gt;
+
+&lt;h3 id=&quot;codec&quot;&gt;Codec&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Compressor + Decompressor의 합성 및 줄임말&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;영상은 무조건 손실과 압축의 과정을 거칩니다. 만약 영상이 Uncompressed 된 상태라면.. 무압축 1080이 1초에 1기가 정도의 용량을 자랑(?)한다고 하니까..! 이걸 돌리다가 여러분의 소중한 맥이 뻗어버리는 대참사가 벌어지겠죠?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;손실 = 화질 악화&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;를 의미하지만 압축이 꼭 필요한 이유가 바로 이것입니다. 영상을 압축한다고 할 때는 보통 ‘색 정보’를 압축한다는 의미이고, 이 손실률을 줄이는 것이 영상 관련한 회사들이 가지는 지상 목표라고 할 수 있죠.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Digital Container Format (Wrapper Format)&lt;/p&gt;
+
+    &lt;p&gt;여기서 잠깐..! 영상 파일을 보면 제목 뒤에 Quicktime(MOV), AVI, MKV, MP4, AIFF, WAV 등등 이런 것들이 붙죠? 이게 바로 코덱이 아니고 콘테이너입니다. 낚이면 안 돼요..?&lt;/p&gt;
+
+    &lt;p&gt;다시 코덱으로 돌아가면&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/gop vs intra.png&quot; alt=&quot;gopintra&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;요로코롬 GOP vs Intra Compression이 있습니다. 바로 밑에서 따로따로 설명해 드리죠.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GOP(Group of Pictures) Compression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/gop.png&quot; alt=&quot;gop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위의 그림을 보면 I, P, B가 있죠?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I = Intra - Coded Frame&lt;/p&gt;
+
+  &lt;p&gt;P = Predictive - Coded Frame&lt;/p&gt;
+
+  &lt;p&gt;B = Bidirectional - Coded Frame&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;여기서 인트라 영상의 모든 픽셀 정보를 가지고 있는 프레임이라고 보면 된다. P와 B는 변한 부분에 대한 프레임을 의미하는데..&lt;/p&gt;
+
+&lt;p&gt;정리해서 말하자면 I를 복사해서 P 그리고 B와 합성하는 방식이라고 보면 됩니다. 용량이 매우 작고 (비교적) 화질이 떨어지는 특징이 있습니다. 프레임 단위로 컴퓨터가 연산을 해야하기 때문에 편집에는 최악인 방식이라고 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;대표 코덱으로는..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;AVCHD (MPEG-4/H.264)&lt;/li&gt;
+    &lt;li&gt;HDV&lt;/li&gt;
+    &lt;li&gt;MXF&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;가 있고 ‘출력 용도’의 코덱입니다. 압축률이 굉장히 높은 특징이 있어요!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Intra Compression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/Intra.png&quot; alt=&quot;intra&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;전부 다~ Intra 프레임만 있는 경우입니다. 이 말인 즉슨! 용량이 무지~하게 크지만 컴퓨터의 연산 몫이 줄어 ‘편집’에 유리하다는 말이기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;대표 코덱으로는..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;DVCPRO HD&lt;/li&gt;
+    &lt;li&gt;ProRes&lt;/li&gt;
+    &lt;li&gt;AVC - Intra&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/video quality.png&quot; alt=&quot;longgop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;대부분의 카메라가 GOP 방식을 따르고 있고, 이 말은 편집 때 컴퓨터에게 부담을 주지 않으려면 ‘컨버팅’이 필요하다는 것을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;ProRes&lt;/p&gt;
+
+    &lt;p&gt;애플느님이 만든 코덱이고 전세계적으로 극찬 받는 바로 그 코덱..! 심지어 어도비도 사서 쓰는 명품 코덱&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/ProRes.png&quot; alt=&quot;ProRes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;대략 요런 구성입니다. 보통 작업할 때는 422를 가장 많이 쓰고 ‘사둘둘’이라고 부릅니다. 제일 밑에 있는 Proxy의 경우는 원본의 50% ‘퀄리티’인데, 어떨 때 사용하느냐! &lt;strong&gt;멀티캠&lt;/strong&gt; 작업에 사용합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ex. 효리네 민박 같은 편집량 과다한 고화질 관찰형 예능&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;혹은 개인이 덕질하는 수준에서는 멀티캠을 가장 많이 사용하는 아이돌 무대 ‘교차편집’ 정도..?&lt;/p&gt;
+
+&lt;p&gt;요는 고화질 다량의 소스를 작업할 때 프록시로 했다가, 출력은 고퀄 코덱으로 하시는 것을 추천&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;자 여기까지 정말 간단하고 짧은(?) 영상 이론이었고 3개의 문서를 종합해서 요약해 드리자면..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;화면 사이즈&lt;/li&gt;
+    &lt;li&gt;Interlaced vs Progressive (Scan Method)&lt;/li&gt;
+    &lt;li&gt;Frame Rate&lt;/li&gt;
+    &lt;li&gt;Bit Depth&lt;/li&gt;
+    &lt;li&gt;Codec&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이 순으로 큰 개념들 간단하게 정리해두시고, 관련해서 구글링 하다 보면 모르는 용어를 추가로 정리해 두면 온갖 설정, 경고 메시지 등에 당황하지 않을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;다음 시간부터는 본격 ‘파이널컷 X 초간단 매뉴얼’ 들어가도록 하겠습니다.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 Dec 2019 12:00:00 +0900</pubDate>
+        <link>http://localhost:4000//dlog-videoformat3/</link>
+        <guid isPermaLink="true">http://localhost:4000//dlog-videoformat3/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        
+        <category>영상</category>
+        
+        <category>영상제작</category>
+        
+        <category>영상이론</category>
+        
+      </item>
     
       <item>
         <title>아주 짤막한 영상 지식 - 2</title>

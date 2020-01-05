@@ -1,0 +1,135 @@
+I"�<p><img src="../img/post/04/post04.png" alt="영상 썸네일" /></p>
+
+<p>언제나 이론은 재미가 읎죠? 사실 저도 그런데.. 이것만 끝내고 얼른 파컷 초간단 매뉴얼로 넘어가도록 할게요 ^^</p>
+
+<h3 id="codec">Codec</h3>
+
+<blockquote>
+  <p>Compressor + Decompressor의 합성 및 줄임말</p>
+</blockquote>
+
+<p>영상은 무조건 손실과 압축의 과정을 거칩니다. 만약 영상이 Uncompressed 된 상태라면.. 무압축 1080이 1초에 1기가 정도의 용량을 자랑(?)한다고 하니까..! 이걸 돌리다가 여러분의 소중한 맥이 뻗어버리는 대참사가 벌어지겠죠?</p>
+
+<blockquote>
+  <p>손실 = 화질 악화</p>
+</blockquote>
+
+<p>를 의미하지만 압축이 꼭 필요한 이유가 바로 이것입니다. 영상을 압축한다고 할 때는 보통 ‘색 정보’를 압축한다는 의미이고, 이 손실률을 줄이는 것이 영상 관련한 회사들이 가지는 지상 목표라고 할 수 있죠.</p>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Digital Container Format (Wrapper Format)</p>
+
+    <p>여기서 잠깐..! 영상 파일을 보면 제목 뒤에 Quicktime(MOV), AVI, MKV, MP4, AIFF, WAV 등등 이런 것들이 붙죠? 이게 바로 코덱이 아니고 콘테이너입니다. 낚이면 안 돼요..?</p>
+
+    <p>다시 코덱으로 돌아가면</p>
+  </li>
+</ul>
+
+<p><img src="../img/post/04/gop vs intra.png" alt="gopintra" /></p>
+
+<p>요로코롬 GOP vs Intra Compression이 있습니다. 바로 밑에서 따로따로 설명해 드리죠.</p>
+
+<p><br /></p>
+
+<ul>
+  <li>GOP(Group of Pictures) Compression</li>
+</ul>
+
+<p><img src="../img/post/04/gop.png" alt="gop" /></p>
+
+<p>위의 그림을 보면 I, P, B가 있죠?</p>
+
+<blockquote>
+  <p>I = Intra - Coded Frame</p>
+
+  <p>P = Predictive - Coded Frame</p>
+
+  <p>B = Bidirectional - Coded Frame</p>
+</blockquote>
+
+<p>여기서 인트라 영상의 모든 픽셀 정보를 가지고 있는 프레임이라고 보면 된다. P와 B는 변한 부분에 대한 프레임을 의미하는데..</p>
+
+<p>정리해서 말하자면 I를 복사해서 P 그리고 B와 합성하는 방식이라고 보면 됩니다. 용량이 매우 작고 (비교적) 화질이 떨어지는 특징이 있습니다. 프레임 단위로 컴퓨터가 연산을 해야하기 때문에 편집에는 최악인 방식이라고 할 수 있습니다.</p>
+
+<p>대표 코덱으로는..</p>
+
+<blockquote>
+  <ol>
+    <li>AVCHD (MPEG-4/H.264)</li>
+    <li>HDV</li>
+    <li>MXF</li>
+  </ol>
+</blockquote>
+
+<p>가 있고 ‘출력 용도’의 코덱입니다. 압축률이 굉장히 높은 특징이 있어요!</p>
+
+<p><br /></p>
+
+<ul>
+  <li>Intra Compression</li>
+</ul>
+
+<p><img src="../img/post/04/Intra.png" alt="intra" /></p>
+
+<p>전부 다~ Intra 프레임만 있는 경우입니다. 이 말인 즉슨! 용량이 무지~하게 크지만 컴퓨터의 연산 몫이 줄어 ‘편집’에 유리하다는 말이기도 합니다.</p>
+
+<p>대표 코덱으로는..</p>
+
+<blockquote>
+  <ol>
+    <li>DVCPRO HD</li>
+    <li>ProRes</li>
+    <li>AVC - Intra</li>
+  </ol>
+</blockquote>
+
+<p><img src="../img/post/04/video quality.png" alt="longgop" /></p>
+
+<p>대부분의 카메라가 GOP 방식을 따르고 있고, 이 말은 편집 때 컴퓨터에게 부담을 주지 않으려면 ‘컨버팅’이 필요하다는 것을 의미합니다.</p>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>ProRes</p>
+
+    <p>애플느님이 만든 코덱이고 전세계적으로 극찬 받는 바로 그 코덱..! 심지어 어도비도 사서 쓰는 명품 코덱</p>
+  </li>
+</ul>
+
+<p><img src="../img/post/04/ProRes.png" alt="ProRes" /></p>
+
+<p>대략 요런 구성입니다. 보통 작업할 때는 422를 가장 많이 쓰고 ‘사둘둘’이라고 부릅니다. 제일 밑에 있는 Proxy의 경우는 원본의 50% ‘퀄리티’인데, 어떨 때 사용하느냐! <strong>멀티캠</strong> 작업에 사용합니다.</p>
+
+<blockquote>
+  <p>ex. 효리네 민박 같은 편집량 과다한 고화질 관찰형 예능</p>
+</blockquote>
+
+<p>혹은 개인이 덕질하는 수준에서는 멀티캠을 가장 많이 사용하는 아이돌 무대 ‘교차편집’ 정도..?</p>
+
+<p>요는 고화질 다량의 소스를 작업할 때 프록시로 했다가, 출력은 고퀄 코덱으로 하시는 것을 추천</p>
+
+<hr />
+
+<p><br /></p>
+
+<p>자 여기까지 정말 간단하고 짧은(?) 영상 이론이었고 3개의 문서를 종합해서 요약해 드리자면..</p>
+
+<blockquote>
+  <ol>
+    <li>화면 사이즈</li>
+    <li>Interlaced vs Progressive (Scan Method)</li>
+    <li>Frame Rate</li>
+    <li>Bit Depth</li>
+    <li>Codec</li>
+  </ol>
+</blockquote>
+
+<p>이 순으로 큰 개념들 간단하게 정리해두시고, 관련해서 구글링 하다 보면 모르는 용어를 추가로 정리해 두면 온갖 설정, 경고 메시지 등에 당황하지 않을 수 있습니다.</p>
+
+<p>다음 시간부터는 본격 ‘파이널컷 X 초간단 매뉴얼’ 들어가도록 하겠습니다.</p>
+
+:ET
