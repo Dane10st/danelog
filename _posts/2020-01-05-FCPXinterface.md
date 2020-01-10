@@ -4,16 +4,19 @@ title: 파이널컷 프로 X 기본 인터페이스
 date: 2020-01-05 20:00:00 +09:00
 author: "Dane"
 permalink: /dlog-fcpxinterface/
+image:
+  feature: post05.png
 categories:
-  - video
+  - 영상
+  - 영상제작
+  - 영상이론
+  - 파이널컷프로
 tags:
+  - 파이널컷프로
   - 파이널컷
   - 유튜브
   - 영상이론
-  - FCPX
 description: 다소 지루할 수 있는..이 아닌 대놓고 지루한 기본 개념을 읽느라 고생하셨습니다. 지금부터는 '파이널 컷 프로 X'이라는 영상 편집 툴을 전~혀 전문적이지 않게 어제 배운 친구가 느리지만 천천히 복기하듯 알려드리도록 하겠습니다. 왜 이 툴을 골랐느냐고 물으신다면, 저나 여러분 같은 아날로그 문과생에게 그나마 쉽기 때문입니다. 아마 어도비 프로그램으로 시작했다면 어려워서 도중에 노트북을 던지고 만세를 불렀을 수도 있어요.
-image: "../img/post/05/post5.png"
-image-sm: "../img/post/05/post5sm.png"  
 ---
 
 ![영상 썸네일](../img/post/05/post05.png)

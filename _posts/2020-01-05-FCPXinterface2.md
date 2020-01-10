@@ -4,15 +4,18 @@ title: 파이널컷 프로 X 기본 인터페이스 2
 date: 2020-01-05 21:00:00 +09:00
 author: "Dane"
 permalink: /dlog-fcpxinterface2/
-image: "../img/post/06/post6.png"
-image-sm: "../img/post/06/post6sm.png"  
+image:
+  feature: post06.png
 categories:
-  - video
+  - 영상
+  - 영상제작
+  - 영상이론
+  - 파이널컷프로
 tags:
+  - 파이널컷프로
   - 파이널컷
   - 유튜브
   - 영상이론
-  - FCPX
 description: 의식의 흐름대로 서술하다 보니 다소 개판이 되는 느낌이 없지 않아 있는데.. 일단은 전부 쓴 다음에 부분적으로 수정하도록 하겠습니다. 지금 한 포스트에 완벽을 기하다 보면 이 매뉴얼 영원히 끝나지 않을 것 같아.. ㅜㅜ
 ---
 
