@@ -4,22 +4,23 @@ title: 아주 짤막한 영상 지식 - 2
 date: 2019-12-16 12:00:00 +09:00
 author: "Dane"
 permalink: /dlog-videoformat2/
-image:
-  feature: post03.png
 categories:
-  - 영상
-  - 영상제작
-  - 영상이론
+  - video
 tags:
   - 파이널컷
   - 유튜브
   - 영상이론
-description: Video Format 두 번째 시간으로 Frame Rate와 Bit Depth에 대해 아주 살짝 맛보는 시간을 갖도록 하겠다. 이것에 대한 개념 없이 영상 툴부터 배우려 한다면 초기 설정부터 꽉 막혀서 영상을 그만두는 불상사가 생길 수도 있으니 꼭 익혀두도록 하자  
+  - FCPX
+description: Video Format 두 번째 시간으로 Frame Rate와 Bit Depth에 대해 아주 살짝 맛보는 시간을 갖도록 하겠다. 이것에 대한 개념 없이 영상 툴부터 배우려 한다면 초기 설정부터 꽉 막혀서 영상을 그만두는 불상사가 생길 수도 있으니 꼭 익혀두도록 하자
+image: "../img/post/03/post02.png"
+image-sm: "../img/post/03/post02sm.png" 
 ---
 
 ![영상 썸네일](../img/post/03/post03.png)
 
   참고로 이건 Video Format 두 번째 시간입니다. 첫 번째 포스트를 아직 열람하지 못하신 분들은 황급히 뒤로가기를 눌러 순서에 따라 내용을 확인하시기 바랍니다. 이미 영상이론에 대해 빠삭하다 자부하는 분들은 마우스를 내려놓고 이 페이지에서 나가 주시기 바랍니다.
+
+<br>
 
 ### Frame Rate(초당 몇장을 찍었는가)
 
@@ -39,6 +40,8 @@ description: Video Format 두 번째 시간으로 Frame Rate와 Bit Depth에 대
 이 두 친구를 **방송용** Frame Rate라 합니다. 우리에게 아~주 익숙한 720p 화질부터 60프레임 송출이 가능해졌는데요! 59.94 방식을 쓰는 거라고 보면 됩니다.
 
 +@ 120p or 240은 슬로우모션 용입니다. 초당 프레임 수가 많아야 길~~게 늘일 수 있다는 개념..!
+
+<br>
 
 * Drop Frame
 

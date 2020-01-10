@@ -7,23 +7,28 @@ permalink: /dlog-videoformat3/
 image:
   feature: post04.png
 categories:
-  - 영상
-  - 영상제작
-  - 영상이론
+  - video
 tags:
   - 파이널컷
   - 유튜브
   - 영상이론
-description: Video Format 세 번째 시간으로 Codec에 대해 간단히 훑고 넘어가는 아름다운 시간을 갖도록 하겠습니다. 이 부분까지 대략적으로 숙지했다면 설정창에 존재하는 수많은 용어들이 어떤 의미를 가지고 있는지 알 수 있고, 혹여 모르더라도 약간의 구글링을 첨가하면 문맥을 이해할 수 있는 수준이 될 수 있습니다  
+  - FCPX
+description: Video Format 세 번째 시간으로 Codec에 대해 간단히 훑고 넘어가는 아름다운 시간을 갖도록 하겠습니다. 이 부분까지 대략적으로 숙지했다면 설정창에 존재하는 수많은 용어들이 어떤 의미를 가지고 있는지 알 수 있고, 혹여 모르더라도 약간의 구글링을 첨가하면 문맥을 이해할 수 있는 수준이 될 수 있습니다
+image: "../img/post/04/post02.png"
+image-sm: "../img/post/04/post02sm.png"   
 ---
 
 ![영상 썸네일](../img/post/04/post04.png)
 
   언제나 이론은 재미가 읎죠? 사실 저도 그런데.. 이것만 끝내고 얼른 파컷 초간단 매뉴얼로 넘어가도록 할게요 ^^
 
+<br>
+
 ### Codec
 
-> Compressor + Decompressor의 합성 및 줄임말
+<blockquote>
+  Compressor + Decompressor의 합성 및 줄임말
+</blockquote>
 
   영상은 무조건 손실과 압축의 과정을 거칩니다. 만약 영상이 Uncompressed 된 상태라면.. 무압축 1080이 1초에 1기가 정도의 용량을 자랑(?)한다고 하니까..! 이걸 돌리다가 여러분의 소중한 맥이 뻗어버리는 대참사가 벌어지겠죠?
 
